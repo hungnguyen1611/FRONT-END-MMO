@@ -1,0 +1,94 @@
+.infor-store {
+  box-shadow:
+    0 -8px 16px rgba(0, 0, 0, 0.1),
+    0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+}
+
+#numberphone,
+#facebook {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.button-search-registerStore {
+  background-color: #28a745 !important;
+  border-color: #28a745 !important;
+  border-radius: 32px !important;
+  width: max-content;
+}
+.button-search-registerStore:hover {
+  background-color: #fff !important;
+  color: #4db666 !important;
+  border-color: #28a745;
+}
+
+.contact-store {
+  display: flex;
+  gap: 10px;
+  width: 100% !important;
+  /* justify-content: space-between; */
+}
+
+.form-registerStore .ant-select-selector:hover {
+  border-color: #28a745 !important;
+}
+
+.select-store {
+  width: 100%; /* Adjust width as needed */
+  font-size: 24px; /* Increase font size */
+  height: 50px; /* Adjust height */
+}
+
+.custom-textarea {
+  width: 100%; /* Adjust width as needed */
+  height: 150px; /* Adjust height as needed */
+  padding: 10px; /* Space inside the textarea */
+  border: 1px solid #ddd; /* Border color and thickness */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 14px;
+}
+.custom-textarea:focus {
+  border-color: #28a745; /* Border color on focus */
+  outline: none; /* Remove default outline */
+}
+.form-registerStore {
+  gap: 20px;
+}
+
+#numberphone::placeholder,
+.custom-textarea::placeholder,
+.select-store .ant-select-selection-placeholder {
+  /* color: #888888; */
+
+  color: #000; /* Change this to the color you want */
+  font-size: 14px; /* Adjust font size if needed */
+  font-weight: 500;
+  opacity: 0.5;
+}
+
+.contact-page {
+  background-image: url('../../assets/img/bg-contact.png');
+}
+.contact-page > .container {
+  background: transparent;
+}
+
+.wrap-support {
+  background: transparent;
+}
+.infor-store {
+  background-color: #fff;
+}
+
+.contact-page .title-contact {
+  font-size: 2.8rem !important;
+}
+
+.is-invalid {
+  border-color: red !important;
+}
+
+.text-danger {
+  font-size: 12px;
+}

@@ -1,0 +1,37 @@
+.btn-order {
+  width: 20px;
+  cursor: pointer;
+}
+.form-control.search::placeholder {
+  color: #9f9f9f;
+  opacity: 1;
+}
+
+.form-control.search:-ms-input-placeholder {
+  color: #9f9f9f;
+}
+
+.form-control.search::-ms-input-placeholder {
+  color: #9f9f9f;
+}
+.select-color {
+  color: #9f9f9f !important; /* Màu cho cả select và các option */
+}
+.btn.btn-primary.search-order {
+  background-color: #28a745;
+  border-color: #30a061;
+}
+.btn.btn-primary.btn-primary-bg-order {
+  background-color: #28a745;
+  border-color: #30a061;
+}
+.btn.btn-primary.bg-orange-order {
+  background-color: #f17022;
+  border-color: #fe3b07;
+}
+.custom-header.custom-header-order > th {
+  font-weight: 500;
+}
+.body-custom-order > td {
+  color: #000 !important;
+}

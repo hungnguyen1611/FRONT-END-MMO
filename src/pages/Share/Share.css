@@ -1,0 +1,134 @@
+.container-share {
+  padding-bottom: 100px;
+}
+
+.h1-head {
+  color: #3d464d;
+}
+
+.input-group input.form-control:hover {
+  border-color: #007bff; /* Màu border khi hover */
+  color: var(--);
+}
+
+.post-sale {
+  color: var(--primary-color) !important;
+}
+.share-search {
+  border: 1px solid #dee2e6;
+  transition: all 0.2s ease-in-out;
+}
+.share-search:hover {
+  box-shadow: 0 0 0 2px #d9d9d9 inset;
+}
+.share-mana {
+  border: 1px solid #dee2e6;
+  background-color: #f0f0f0;
+  transition: all 0.2s ease-in-out;
+  height: 50px;
+  cursor: pointer;
+}
+.share-mana:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+.li-mana a,
+.li-mana span {
+  transition: all 0.2s ease-in-out;
+}
+.li-mana:hover a,
+.li-mana:hover span {
+  color: var(--primary-color) !important;
+}
+.post-user-blog {
+  color: #ff5b00 !important;
+}
+.post-blog-content {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #000000 !important;
+  font-family: 'Lexend';
+  font-size: 12px;
+}
+
+.post-blog-content span,
+.post-blog-content p {
+  color: #000000 !important;
+  font-family: 'Lexend';
+  font-size: 12px;
+}
+.post-blog-name {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.post-blog-image {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+.background-total {
+  background-color: #f1f3f4;
+}
+
+.background-total .breadcrumb {
+  padding: 20px 0;
+  margin-bottom: 0px;
+}
+
+.heading-share {
+  /* Kinh nghiệm MMO */
+
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.btn-manage-articles {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #47991f;
+  border-radius: 0;
+}
+
+.btn-manage-articles:hover {
+  background-color: #218838;
+}
+
+.categorys {
+  gap: 30px;
+}
+
+.list-unstyled {
+  border: solid 1px #ddd;
+  display: flex;
+  gap: 60px;
+}
+
+.item-unstyled {
+  font-size: 16px;
+
+  font-family: 'Lexend';
+}
+
+.post-date {
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .post-blog-image {
+    height: 200px;
+  }
+}

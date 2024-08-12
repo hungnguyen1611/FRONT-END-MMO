@@ -1,0 +1,87 @@
+/* .service-booth {
+  min-width: 150px;
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
+.name-booth,
+.service-booth {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  max-height: 3em;
+  /* min-width: 150px;
+  max-width: 300px; */
+}
+.status-approved {
+  color: green !important;
+}
+
+.status-pending {
+  color: orange !important;
+}
+
+.status-cancel {
+  color: red !important;
+}
+
+.status-complain {
+  color: darkred !important;
+}
+
+.status-dispute {
+  color: purple !important;
+}
+
+.status-completed {
+  color: blue !important;
+}
+
+.status-finish {
+  color: grey !important;
+}
+
+@media (max-width: 1024px) {
+  .name-booth,
+  .service-booth {
+    min-width: 150px;
+    max-width: 300px;
+  }
+}
+.table > :not(caption) > * > * {
+  border-bottom-width: 0px !important;
+}
+#root > div > div.w-100.d-flex > div.w-100 > div > div.table-responsive > table > tbody > tr {
+  border-bottom: 1px solid #ccc;
+}
+.name-booth {
+  color: var(--color-orange-right) !important;
+}
+.custom-header > th {
+  background-color: #0d6efd !important;
+  color: #fff !important;
+}
+.service-link {
+  color: #228b22 !important;
+}
+.wrap-detail-service {
+  border-top: 1px solid #333;
+}
+.wrap-image-detail-service {
+  width: 10rem;
+}
+.wrap-bottom-detail {
+  border-bottom: 1px solid #333;
+}
+.heading-detail-service {
+  color: var(--primary-color);
+}
+.action-td {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 10px;
+}

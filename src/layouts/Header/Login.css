@@ -1,0 +1,130 @@
+.login-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.modal-login .ant-modal-close {
+  width: 40px;
+  height: 40px;
+  top: 10px;
+  right: 14px;
+}
+
+.modal-login .ant-modal-close-x {
+  font-size: 24px;
+  line-height: 40px;
+}
+.modal-login .ant-modal-content {
+  border-radius: 51px;
+}
+.login-title {
+  text-align: center;
+  /* font-size: 24px !important; */
+  color: #4d5965 !important;
+  margin-bottom: 1rem !important;
+}
+
+.login-subtitle {
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #00b14f;
+}
+
+.login-button {
+  width: 100%;
+  background-color: #ff6600;
+  border-color: #ff6600;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -7px;
+  color: #fff;
+}
+
+.login-divider {
+  text-align: center;
+  margin-bottom: -30px !important;
+}
+
+.google-login-button {
+  margin-bottom: 16px !important;
+}
+
+.google-login-button .nsm7Bb-HzV7m-LgbsSe-MJoBVe {
+  background-color: #e6e6e6 !important;
+}
+
+.google-login-button .nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb {
+  width: 35% !important;
+  margin: 0 auto;
+  color: #999 !important;
+}
+
+.google-icon {
+  width: 20px;
+  margin-right: 8px;
+}
+
+.signup-link {
+  text-align: center;
+}
+.input-login {
+  padding: 8px;
+}
+
+.custom-text {
+  color: #999;
+}
+
+.custom-link {
+  color: #00b14f !important;
+}
+
+.login-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.login-divider span {
+  color: #999;
+}
+
+.login-divider::before,
+.login-divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #dadada;
+}
+
+.login-divider .ant-typography {
+  padding: 0 10px;
+}
+
+.input-login {
+  width: 100%;
+  border-radius: 6px;
+  border: 0.5px solid;
+  border-color: #999;
+}
+
+.input-login:focus {
+  outline: none;
+  border-color: #4a90e2; /* Màu sắc viền khi focus */
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5); /* Hiệu ứng shadow */
+}
+.eye-login {
+  right: 0.4rem;
+  top: 0.6rem;
+  z-index: 10;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .modal-login .ant-modal-content {
+    border-radius: 0;
+  }
+}

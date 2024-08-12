@@ -1,0 +1,59 @@
+.table-responsive .table .custom-header > th {
+  background-color: var(--color-green-right) !important;
+}
+.table > thead {
+  vertical-align: middle !important;
+}
+/* #root > div > div.w-100.d-flex > div.w-100 > div > div.table-responsive > table > thead > tr > th {
+  background-color: var(--color-green-right) !important;
+} */
+.small-text {
+  font-size: 0.8rem;
+}
+
+.small-table {
+  font-size: 0.75rem;
+  width: 100%;
+}
+
+.small-table th,
+.small-table td {
+  padding: 5px;
+}
+.price-0-popup {
+  color: black !important;
+}
+.thead_Store {
+  background-color: #0d6efd !important;
+  color: white !important;
+}
+.width-modal {
+  width: 70% !important;
+}
+.store-img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+}
+.btn.btn-search-store {
+  background-color: var(--color-orange-right);
+  color: #fff;
+}
+.btn.btn-search-store:hover {
+  background-color: #fd6e21;
+  color: #fff;
+}
+@media only screen and (max-width: 1024px) {
+  .store-img {
+    width: 8rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .width-modal {
+    width: 100% !important;
+  }
+  .store-img {
+    width: 6rem;
+  }
+}

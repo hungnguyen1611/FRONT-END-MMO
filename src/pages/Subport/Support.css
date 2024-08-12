@@ -1,0 +1,28 @@
+.wrap-support {
+  /* border: 1px solid #eaeaea; */
+  border-radius: 10px;
+  background-color: #fff;
+}
+.wrapper-purchased {
+  min-height: 60vh;
+}
+
+.input-support {
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
+}
+.title-support {
+  font-size: 2rem;
+
+  font-weight: 500;
+}
+
+.Support-background {
+  background-image: url('../../assets/img/bg-contact.png');
+}
+@media only screen and (max-width: 1024px) {
+  .table-pur .ant-table {
+    max-width: 100%;
+    overflow-x: scroll;
+  }
+}

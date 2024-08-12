@@ -1,0 +1,589 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Home-body-banking {
+  display: grid;
+  justify-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  /* width: 400px; */
+}
+
+.card-container .card {
+  padding: 0 24px;
+  padding-bottom: 45px;
+}
+
+.title-baking {
+  margin-bottom: 25px;
+}
+
+.card-container .card-icon {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
+}
+
+/* .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+  cursor: pointer;
+} */
+
+.card-container .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Home-body-banking .card-content {
+  width: 100%;
+}
+
+.card-content h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.card-content p {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.vietqr-logo {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.account-number,
+.transaction-content {
+  font-weight: bold;
+  color: #28a745;
+}
+
+.ant-modal-body {
+  font-family: Arial, sans-serif;
+  /* Use the font similar to your design */
+}
+
+.ant-form-item-label > label {
+  color: #333;
+  /* Match text color as per design */
+}
+
+.modal-connect {
+  width: 50%;
+  display: flex;
+}
+
+.list-button {
+  width: 50%;
+  display: grid;
+  align-content: center;
+}
+
+.list-button .btnConnect {
+  background-color: #ffff;
+  color: #000;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.16);
+  /* padding: 8px 16px 8px 12px; */
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 40px;
+}
+
+.body-connect {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-baking .ant-modal-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.modal-connect .ant-modal-title {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+.body-connect > * {
+  flex: 0 0 30%;
+  margin: 5px;
+}
+
+.body-connect > *:nth-child(2) {
+  flex: 0 0 64%;
+  margin: 5px;
+}
+
+.btnConnect {
+  margin: 10px 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  /* background-color: #00a1e0; */
+  /* color: white; */
+  border: none;
+  /* padding: 10px 20px; */
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.btnConnect > *:nth-child(2) {
+  width: 80%;
+  font-weight: 590;
+}
+
+.btnConnect:hover {
+  transform: scale(1.01);
+  background: #f17022 !important;
+}
+
+.btnConnectFocus {
+  color: #fff;
+  background: #f17022 !important;
+}
+.go3974562317 {
+  border-radius: 5px !important;
+  width: 207.3px;
+  background: #fff !important;
+  color: #000 !important;
+}
+
+.img-background {
+  box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s;
+}
+
+.wrap-banking {
+  /* display: flex; */
+  align-items: center;
+  height: 80vh;
+  margin: 0;
+  /* width: 400px; */
+}
+
+.wrap-banking {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wallet-card {
+  background-color: #ffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  height: 211px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wallet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 82%;
+  /* margin-bottom: 10px; */
+  margin: 20px;
+  margin-left: 40px;
+  /* position: relative; */
+
+  /* position: relative; */
+}
+
+/* .wallet-header .balance {
+  margin-right: 6px;
+} */
+
+.wallet-header .select {
+  color: #00a1e0;
+  cursor: pointer;
+}
+
+.wallet-header .balance {
+  color: #828282;
+  margin-right: 16px;
+  /* position: absolute;
+  right: 0; */
+}
+.wallet-header span {
+  color: #000;
+}
+.wallet-input {
+  width: 50%;
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid #444444;
+  background-color: #fff;
+  color: #000 !important;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.input-group > * {
+  width: 70%;
+  outline: none;
+}
+
+.input-group > *:nth-child(2) {
+  width: 30%;
+}
+
+.input-group {
+  width: 90% !important;
+}
+
+.connect-wallet {
+  width: 39%;
+  background-color: #f17022;
+  color: #fff;
+  padding: 7px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 18px 0;
+  border: 1px solid #e03c31;
+  border-radius: 8px;
+}
+
+.connect-wallet:hover {
+  background-color: #ff6404;
+  border-color: #fff;
+}
+.ant-form.ant-form-vertical.css-dev-only-do-not-override-j9bb5n {
+  margin: 40px;
+}
+.swal2-popup.swal2-modal.swal2-icon-success.swal2-show {
+  grid-row: 1 !important;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container-banking .account-info {
+  font-family: Arial, sans-serif;
+  /* margin: 20px auto; */
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 40%;
+  border-radius: 16px;
+  /* margin-left: 30px; */
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.account-info .label {
+  font-weight: bold;
+  margin-right: 10px;
+  flex-basis: 100px;
+}
+
+.account-info .value {
+  color: green;
+  flex-grow: 1;
+}
+
+.copy-button {
+  cursor: pointer;
+}
+
+.modal-baking {
+  width: 700px !important;
+}
+
+.modal-baking .ant-modal-title {
+  font-size: 20px;
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+
+  color: #000000;
+}
+.modal-baking .ant-form-item {
+  margin-bottom: 4px;
+}
+
+.modal-baking .ant-form-item-label {
+  padding: 0 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.list-item-amout {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  padding: 0 5px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 38px;
+  row-gap: 33px;
+}
+
+.list-item-amout .ant-radio-button-wrapper {
+  font-size: 20px;
+  width: 127px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none !important;
+}
+.list-item-amout .ant-radio-button-wrapper:hover {
+  color: #28a745 !important;
+  border-color: #28a745;
+}
+
+:where(.css-dev-only-do-not-override-1okl62o).ant-radio-button-wrapper-checked:not(
+    .ant-radio-button-wrapper-disabled
+  ):first-child {
+  border-color: #28a745;
+}
+
+:where(.css-dev-only-do-not-override-1okl62o).ant-radio-button-wrapper-checked:not(
+    .ant-radio-button-wrapper-disabled
+  ):hover::before,
+:where(.css-dev-only-do-not-override-1okl62o).ant-radio-button-wrapper:not(:first-child):hover:before {
+  background-color: #28a745 !important;
+}
+
+/* 
+:where(.css-dev-only-do-not-override-1okl62o).ant-radio-button-wrapper:not(:first-child)::before :hover {
+  background-color: #28a745 !important;
+} */
+
+.amount-container {
+  font-family: Arial, sans-serif;
+  padding: 5px;
+}
+
+.amount-container .label {
+  font-size: 16px;
+  color: #333333;
+  font-family: 'Inter';
+}
+
+.amount-container .balance {
+  color: #989898;
+  font-family: 'Inter';
+}
+
+.amount-container .amount {
+  font-size: 24px;
+  color: #ff6600; /* Orange color for the amount */
+  margin-top: 5px;
+}
+
+.bank-select-container {
+  font-family: Arial, sans-serif;
+  padding: 5px;
+  margin-bottom: 35px;
+}
+
+.bank-select-container .label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-family: 'Inter';
+}
+
+.custom-select {
+  margin-bottom: 20px;
+  font-family: 'Inter';
+}
+
+.custom-select .ant-select-selector {
+  height: 35px !important;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc !important; /* Border color */
+  border-radius: 0px !important;
+}
+
+.custom-select .ant-select-selection-placeholder {
+  color: #989898 !important;
+}
+
+.custom-dropdown .ant-select-item-option-content {
+  margin-bottom: 5px;
+  font-family: 'Inter';
+}
+
+.deposit-form {
+  font-family: Arial, sans-serif;
+  color: #ff6600;
+  padding: 0 5px;
+}
+
+.deposit-form .limits {
+  margin-bottom: 25px;
+  font-size: 16px;
+  font-family: 'Inter';
+}
+
+.deposit-form .limits .limit {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-bottom: 5px;
+}
+
+.deposit-form .limits .label {
+  font-weight: bold;
+}
+
+.deposit-form .limits .limit .value {
+  margin-left: 10px;
+}
+
+.deposit-button {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 174px;
+  height: 40px;
+  background: #f17022;
+  border: 1px solid #e03c31;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-product {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.deposit-button:hover {
+  background-color: #e65c00;
+  border: #ffff;
+}
+
+.container-banking {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.qr-container {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+
+.qr-container img {
+  max-width: 100%;
+}
+:where(.css-dev-only-do-not-override-1okl62o).ant-radio-button-wrapper-checked:not(
+    .ant-radio-button-wrapper-disabled
+  )::before {
+  background-color: #28a745;
+}
+
+:where(.css-dev-only-do-not-override-1okl62o).ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  border-color: #28a745;
+  color: #28a745;
+}
+
+@media (max-width: 768px) {
+  .title-baking {
+    margin-bottom: 0 !important;
+    margin-top: 30px;
+  }
+  .body-connect {
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+  }
+
+  .body-connect > * {
+    flex: 0 0 100%;
+  }
+  .body-connect > *:nth-child(2) {
+    flex: 0 0 100%;
+  }
+  .btnConnect {
+    width: 100%;
+  }
+}

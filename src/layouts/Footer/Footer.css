@@ -1,0 +1,10 @@
+.wrapper-footer {
+  border-top: 1px solid #e8ebed;
+}
+.footer-item-link {
+  color: #474646 !important;
+  font-weight: 400;
+}
+.footer-item-link:hover {
+  color: var(--primary-color) !important;
+}

@@ -1,0 +1,240 @@
+#root {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  /* text-align: center; */
+  font-size: 1.2rem;
+  overflow: hidden;
+  /* background-color: #f4f4f4; */
+}
+p {
+  margin: 0 !important;
+}
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+.cursor {
+  cursor: pointer;
+}
+
+:root {
+  --primary-color: #0b826b;
+  --primary-color-hover: #085c4b;
+  --color-orange-left: #fcb895;
+  --color-orange-right: #ff5b00;
+  --color-green-left: #9fffcb;
+  --color-green-right: #39b76f;
+  --btn-green: #139620;
+  --btn-green-hover: #127a1c;
+}
+.bg-orange {
+  background: linear-gradient(to right, var(--color-orange-left), var(--color-orange-right));
+}
+.bg-green {
+  background: linear-gradient(to right, var(--color-green-left), var(--color-green-right));
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* css search */
+/* CSS for custom Select component */
+
+.btn-search {
+  background-color: var(--color-orange-right);
+  /* border-color: var(--color-orange-right); */
+  color: white;
+}
+
+.card {
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Điều chỉnh cho màn hình rất nhỏ (320px) */
+@media (max-width: 320px) {
+  .card .row > div {
+    width: 135px !important;
+    border: none !important;
+    padding: 8px 0;
+  }
+  #root > div > div.mb-3 > div > div.container.d-block.d-md-none > div > div > div > div > div {
+    display: block;
+  }
+  #root
+    > div
+    > div.mb-3
+    > div
+    > div.container.d-block.d-md-none
+    > div
+    > div
+    > div
+    > div
+    > div
+    > div.container.col-auto.d-flex.align-items-center.p-0
+    > div {
+    width: 185px;
+  }
+  #root
+    > div
+    > div.mb-3
+    > div
+    > div.container.d-block.d-md-none
+    > div
+    > div
+    > div
+    > div
+    > div
+    > div.container.col.ps-2.pe-0.border-end.border-2 {
+    width: 250px !important;
+  }
+  #root
+    > div
+    > div.mb-3
+    > div
+    > div.container.d-block.d-md-none
+    > div
+    > div
+    > div
+    > div
+    > div
+    > div.col-auto.ps-0.container {
+    display: flex;
+    justify-content: center;
+    padding-left: 55px !important;
+  }
+  .btn-search {
+    width: 200px;
+    margin-top: 10px;
+  }
+
+  .col-auto {
+    padding: 0 !important;
+  }
+
+  .col-auto.d-flex {
+    justify-content: center;
+  }
+
+  /* Điều chỉnh các thành phần nhập liệu */
+  .AutoComplete,
+  .Select {
+    width: 250px !important;
+  }
+}
+
+/* Điều chỉnh cho màn hình lớn hơn nhưng vẫn cần responsive */
+@media (min-width: 321px) and (max-width: 768px) {
+  .card .row > div {
+    width: 100% !important;
+    border-right: none !important;
+  }
+  #root
+    > div
+    > div.mb-3
+    > div
+    > div.container.d-block.d-md-none
+    > div
+    > div
+    > div
+    > div
+    > div
+    > div.col-auto.ps-0.container {
+    display: flex;
+    justify-content: center;
+    padding-left: 55px !important;
+  }
+  .btn-search {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .col-auto {
+    padding: 0 !important;
+  }
+
+  .col-auto.d-flex {
+    justify-content: center;
+  }
+}
+:where(.css-dev-only-do-not-override-1okl62o).ant-menu-light .ant-menu-submenu-selected > .ant-menu-submenu-title,
+:where(.css-dev-only-do-not-override-1okl62o).ant-menu-light
+  > .ant-menu
+  .ant-menu-submenu-selected
+  > .ant-menu-submenu-title {
+  color: green !important;
+}
+
+.checkbox-sidebar {
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  background-color: #fff;
+  position: relative;
+  outline: none;
+  width: 3px;
+}
+
+.checkbox-sidebar:checked {
+  background-color: green;
+  border-color: green;
+}
+
+.checkbox-sidebar::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.checkbox-sidebar:checked::before {
+  opacity: 1;
+}
+li > span > span > .ant-input {
+  padding: 0px;
+}
+/* #sidebar > li > div{background-color: white !important;}
+#sidebar{background-color: white !important;} */
+
+:where(.css-dev-only-do-not-override-1okl62o).ant-menu-light.ant-menu-inline .ant-menu-sub.ant-menu-inline {
+  background: none !important;
+}

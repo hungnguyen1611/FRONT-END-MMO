@@ -1,0 +1,73 @@
+.button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+.mb-2,
+.custom-header {
+  /* text-align: center; */
+  font-family: serif;
+}
+/* .table-responsive {
+  overflow: scroll;
+  width: 100%;
+}
+.table {
+  width: 100%;
+  overflow: scroll;
+} */
+@media (max-width: 1024px) {
+  .table-responsive {
+    overflow-x: scroll;
+    /* overflow-x: auto; */
+    /* width: calc(100% + 280px); */
+    /* max-width: 100%; */
+    /* width: auto; */
+    /* width: calc(100% - 280px); */
+    width: 100%;
+  }
+  .table {
+    min-width: 1000px;
+    overflow-x: scroll;
+    /* width: calc(100% - 280px); */
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media only screen and (max-width: 480px) {
+}
+@media (max-width: 800px) {
+  .list-sale button {
+    width: 50%;
+  }
+  .list-sale {
+    display: grid;
+    justify-items: center;
+    width: 100%;
+  }
+  .btn-openMenu div {
+    display: flex !important;
+  }
+}
+
+.btn-openMenu div {
+  display: none;
+}
+
+.button {
+  color: black; /* Màu cơ bản */
+  background-color: white; /* Màu nền cơ bản */
+}
+
+.focus {
+  color: white;
+  background-color: blue;
+}

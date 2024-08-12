@@ -1,0 +1,91 @@
+.avatar-container {
+  position: relative;
+  max-width: 255px;
+  width: 100%;
+  height: 255px;
+  /* background: #404040; */
+  border-radius: 50%;
+  overflow: hidden;
+}
+.level {
+  background: #28a745;
+}
+
+.btn-edit {
+  background: #28a745 !important;
+  color: white !important;
+}
+.btn-primary.btn-withdraw,
+.btn-primary.btn-withdraw:hover,
+.btn-primary.btn-withdraw:active {
+  border-color: #30a061;
+  background-color: #fff;
+  color: #28a745;
+}
+.avatar-container::before {
+  /* content: '';
+  position: absolute;
+  inset: -5px 70px;
+  background: linear-gradient(315deg, #00ccff, rgb(228, 192, 255));
+  transition: 0.5s;
+  animation: animate 4s linear infinite; */
+}
+.avatar-container:hover::before {
+  inset: -10px -5px;
+}
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.avatar-container::after {
+  /* content: '';
+  position: absolute;
+  inset: 3px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  z-index: 1; */
+}
+
+.avatar-content {
+  position: absolute;
+  inset: 15px;
+  /* border: 3px solid #404040; */
+  z-index: 3;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.avatar-content img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1024px) {
+  .avatar-container {
+    height: 175px;
+  }
+}
+.table-custom-history .ant-table-thead .ant-table-cell {
+  background-color: #48b761;
+  color: #fff;
+  font-weight: 400;
+}
+.table-custom-history .ant-table-tbody .ant-table-cell {
+  font-weight: 600;
+}
+.table-custom-history .ant-table-thead .ant-table-cell::before {
+  display: none;
+}
+.bg-information {
+  background-color: #fff;
+  height: 100%;
+}

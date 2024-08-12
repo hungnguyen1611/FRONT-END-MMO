@@ -1,0 +1,219 @@
+.post-content-blog {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 4; /* Số dòng bạn muốn giới hạn */
+  line-height: 1.5; /* Chiều cao mỗi dòng, điều chỉnh theo ý muốn */
+  max-height: calc(1.5em * 4);
+}
+/* Hưng */
+.post-content-blog {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 4; /* Số dòng bạn muốn giới hạn */
+  line-height: 1.5; /* Chiều cao mỗi dòng, điều chỉnh theo ý muốn */
+  max-height: calc(1.5em * 4);
+  font-size: 14px;
+}
+.user-profile-container-block {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  gap: 16%;
+}
+
+.user-icon-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-icon {
+  font-size: 100px;
+}
+.fs-5.my-2 {
+  font-size: 50px !important;
+}
+
+.user-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.user-icon p {
+  margin: 5px 0 0;
+  font-size: 12px;
+  color: black;
+  text-align: center;
+}
+
+.ant-btn-primary {
+  background-color: black;
+  border-color: black;
+}
+
+.user-block {
+  display: flex;
+  justify-content: center;
+}
+.form-control.rounded-2.border.w-100.my-2,
+.rounded-2.border.p-2,
+.quill {
+  background-color: #e9ecef;
+}
+
+/* App.css */
+.my-5 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.fs-6 {
+  font-size: 1rem;
+}
+
+.file-input-wrapper {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.file-input {
+  width: 100%;
+  height: 40px; /* Adjust height as needed */
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.file-input-wrapper::before {
+  content: 'Choose file';
+  display: inline-block;
+  width: calc(100% - 100px);
+  height: 40px;
+  line-height: 40px;
+  background: #e9ecef;
+  color: #6c757d;
+  text-align: left;
+  padding-left: 10px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #ced4da;
+  border-right: 0;
+}
+
+.file-input-wrapper::after {
+  content: 'Browse';
+  display: inline-block;
+  width: 100px; /* Adjust width as needed */
+  height: 40px; /* Adjust height as needed */
+  line-height: 40px; /* Adjust line-height as needed */
+  background: #e9ecef;
+  color: #6c757d;
+  text-align: center;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #ced4da;
+  border-left: 0;
+}
+.note-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.note-block .fs-5 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px !important;
+}
+.note-block .fs-6 {
+  list-style-type: none;
+  margin: 0 150px;
+  text-align: center;
+}
+
+/* App.css */
+.form-group {
+  display: flex;
+}
+
+.action-block-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.post-block-select {
+  flex: 1;
+  margin-right: 10px; /* Để tạo khoảng cách giữa select và button */
+}
+
+.create-block-button {
+  padding: 0px 20px;
+  height: 50px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.create-block-button:hover {
+  background-color: #218838;
+}
+.post-name-block {
+  font-size: 15px;
+}
+.btn-warning {
+  background-color: var(--color-orange-right) !important;
+}
+
+/* App.css */
+.truncate {
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* Số lượng dòng tối đa */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.post-content {
+  max-height: calc(1.2em * 5); /* Điều chỉnh chiều cao để phù hợp với số dòng tối đa */
+}
+
+.status-block .btn-warning {
+  color: #ffff;
+}
+
+.img-share-block img {
+  border-radius: 10px;
+}
+.img-share-block {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .img-share-block {
+    height: 200px;
+  }
+}
+
+.img-share-fluid {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
